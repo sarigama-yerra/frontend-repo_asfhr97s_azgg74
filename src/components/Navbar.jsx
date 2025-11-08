@@ -20,6 +20,7 @@ export default function Navbar() {
             <a href="#projects" className="hover:text-white transition">Projects</a>
             <a href="#pricing" className="hover:text-white transition">Pricing</a>
             <a href="#contact" className="hover:text-white transition">Contact</a>
+            <a href="/admin" className="hover:text-white transition">Admin</a>
             <a href="#get-started" className="ml-2 inline-flex items-center rounded-full bg-white/10 hover:bg-white/20 text-white px-4 py-2 border border-white/20 transition">Get Started</a>
           </nav>
 
@@ -35,6 +36,7 @@ export default function Navbar() {
               <a href="#projects" className="block px-2 py-2 rounded-lg hover:bg-white/10">Projects</a>
               <a href="#pricing" className="block px-2 py-2 rounded-lg hover:bg-white/10">Pricing</a>
               <a href="#contact" className="block px-2 py-2 rounded-lg hover:bg-white/10">Contact</a>
+              <a href="/admin" className="block px-2 py-2 rounded-lg hover:bg-white/10">Admin</a>
               <a href="#get-started" className="block px-2 py-2 rounded-lg bg-white/10 border border-white/20 text-white text-center">Get Started</a>
             </div>
           </div>
