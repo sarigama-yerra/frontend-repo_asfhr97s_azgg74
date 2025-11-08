@@ -1,4 +1,4 @@
-import { Users, FileText, Receipt, CalendarCheck, KanbanSquare, Timeline } from 'lucide-react';
+import { Users, FileText, CreditCard, ListChecks, Calendar, Clock } from 'lucide-react';
 
 const features = [
   {
@@ -7,7 +7,7 @@ const features = [
     desc: 'Centralize briefs, approvals, feedback and contact history with rich profiles and portals.',
   },
   {
-    icon: Receipt,
+    icon: CreditCard,
     title: 'Invoicing & Payments',
     desc: 'Create quotes, send invoices, track status and get paid faster with automated reminders.',
   },
@@ -17,17 +17,17 @@ const features = [
     desc: 'Manage scopes, SOWs, scripts and deliverables with versioning and quick share links.',
   },
   {
-    icon: KanbanSquare,
+    icon: ListChecks,
     title: 'Task Boards',
     desc: 'Plan shoots and edits with Kanban, assignees, checklists, file attachments and due dates.',
   },
   {
-    icon: CalendarCheck,
+    icon: Calendar,
     title: 'Scheduling',
     desc: 'Resource calendars for crew, rooms and gear. Sync with Google/Apple calendars.',
   },
   {
-    icon: Timeline,
+    icon: Clock,
     title: 'Timelines',
     desc: 'Visual pre/post timelines to map from brief to delivery with milestones and dependencies.',
   },
